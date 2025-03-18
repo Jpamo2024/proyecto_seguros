@@ -10,7 +10,8 @@ try:
     # Ordenar los datos por nombre
     data_ordenada = data.sort_values(by='Nombre1')
     # Regla 2: transformar datos null por 0.
-    # Regla 3: Eliminar tercer nombre  de cada registro
+    # Regla 4: Eliminar los 2 primeros digitos del campo DNI
+    
     
     # Exportar a Excel
     archivo_excel = 'clientes_ordenados.xlsx'
